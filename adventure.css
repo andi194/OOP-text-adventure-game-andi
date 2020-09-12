@@ -1,0 +1,44 @@
+body{
+  text-align: center;
+  }
+  
+#gamearea
+  {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:600px;
+    width:800px;
+    background-color: rgb(39, 78, 39);
+    border-radius: 10px;
+    color:black;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif ;
+  }
+
+  input{
+    color: green;
+    background-color: black;
+    border: 0px;
+  }
+
+  input:focus {
+    outline: none;
+    border-color: #719ECE;
+    
+    }
+
+#startbutton {
+color: blue;
+background-color:white;
+text-decoration-style: bold;
+}
+
+#textarea {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium; 
+}
