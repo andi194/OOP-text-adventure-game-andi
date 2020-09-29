@@ -1,3 +1,5 @@
+
+// code for rooms //
 class Room {
   constructor(kitchen) {
     this._name = kitchen;
@@ -59,7 +61,7 @@ class Room {
     return details;
   }
 
-
+// move about rooms//
   move(direction) {
     if (direction in this._linkedRooms) {
       return this._linkedRooms[direction];
@@ -71,7 +73,7 @@ class Room {
   }
 }
 
-
+//item for game//
 class Item {
   constructor(name) {
     this._name = name,
@@ -163,7 +165,7 @@ class Character {
   }
 }
 
-
+// enemy character//
 class Enemy extends Character {
   constructor(name) {
     super(name);
@@ -198,13 +200,6 @@ class Enemy extends Character {
 }
 
 var item = "lamp";
-
-
-
-
-
-
-
 
 
 
@@ -248,20 +243,6 @@ Garden.character = Pete;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function displayRoomInfo(room) {
   let occupantMsg = ""
   if (room.character === "") {
@@ -299,3 +280,4 @@ function startGame() {
     }
   });
 }
+
